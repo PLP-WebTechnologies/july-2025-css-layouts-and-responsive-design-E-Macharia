@@ -1,4 +1,4 @@
-/* Basic Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@ body {
   background-color: whitesmoke;
 }
 
-/* Header */
+
 header {
   background: #2c3e50;
   color: white;
@@ -20,7 +20,7 @@ header {
   padding: 1.5rem;
 }
 
-/* Navigation (Flexbox) */
+
 nav {
   background: #34495e;
 }
@@ -41,7 +41,7 @@ nav {
   font-weight: bold;
 }
 
-/* Main Layout (CSS Grid) */
+
 .container {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -55,7 +55,7 @@ nav {
   border-radius: 8px;
 }
 
-/* Portfolio (Flexbox) */
+
 .portfolio {
   padding: 20px;
 }
@@ -74,7 +74,7 @@ nav {
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-/* Footer */
+
 footer {
   text-align: center;
   background: #2c3e50;
@@ -83,9 +83,9 @@ footer {
   margin-top: 20px;
 }
 
-/* --- Responsive Design --- */
 
-/* Tablets */
+
+
 @media (max-width: 900px) {
   .container {
     grid-template-columns: 1fr;
@@ -101,7 +101,7 @@ footer {
   }
 }
 
-/* Mobile */
+
 @media (max-width: 600px) {
   header h1 {
     font-size: 1.5rem;
@@ -111,3 +111,4 @@ footer {
     flex-direction: column;
   }
 }
+
